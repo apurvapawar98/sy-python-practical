@@ -1,0 +1,10 @@
+
+feedback = (input("enter your feedbak:"))
+print("customer feedback report".upper().center(70))
+print("************************")
+print("feedback:",feedback.title())
+print("*****************")
+print("feedback summary")
+print(feedback,len(feedback))
+print(len(feedback.split(feedback)))
+print(feedback,)
